@@ -1,0 +1,14 @@
+{
+  "name": "jquery.findyourrep.ca",
+  "version": "0.0.1",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt",
+    "**/*.md"
+  ],
+  "dependencies": {
+    "jquery": "~>1.11.0",
+    "jquery-findyourrep": "git://github.com/sunlightlabs/jquery-findyourrep.git#0.0.2"
+  },
+  "devDependencies": {}
+}

@@ -8,17 +8,40 @@ This plugin extends and reuses code from the [Sunlight Foundation](https://sunli
 
 1. Link, in this order:
   1. jQuery
-  1. [`dist/jquery.findyourrep-pack.min.js`](https://raw.githubusercontent.com/sunlightlabs/jquery-findyourrep/master/dist/js/jquery.findyourrep-pack.min.js) from jQuery Find-Your-Rep
-  1. [`dist/jquery.findyourrep.ca.min.js`](https://raw.githubusercontent.com/opennorth/jquery-findyourrep-ca/master/dist/js/jquery.findyourrep.ca.min.js) from this package
+  1. [`dist/js/jquery.findyourrep-pack.min.js`](https://raw.githubusercontent.com/sunlightlabs/jquery-findyourrep/master/dist/js/jquery.findyourrep-pack.min.js) from jQuery Find-Your-Rep
+  1. [`dist/js/jquery.findyourrep.ca.min.js`](https://raw.githubusercontent.com/opennorth/jquery-findyourrep-ca/master/dist/js/jquery.findyourrep.ca.min.js) from this package
 1. Call `findYourRep({apis: 'represent'})` on an element:
 
 ```javascript
     $('.myDiv').findYourRep({apis: 'represent'});
 ```
 
-Try the [demo](http://opennorth.github.io/jquery-findyourrep-ca/) (a good test address is `A1A1A1` for St. John's, NL).
-
 For further documentation, see the [jQuery Find-Your-Rep](https://github.com/sunlightlabs/jquery-findyourrep#readme) plugin.
+
+## Example
+
+Try the [demo](http://opennorth.github.io/jquery-findyourrep-ca/) (a good test address is `A1A1A1` for St. John's, NL). The full example code is:
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Your Rep example</title>
+    <link rel="stylesheet" href="css/jquery.findyourrep.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery.findyourrep-pack.min.js"></script>
+    <script src="js/jquery.findyourrep.ca.min.js"></script>
+</head>
+<body>
+    <script>
+        $('body').append('<div class="fyr"></div>')
+                 .find('div.fyr')
+                 .findYourRep({apis: 'represent'});
+    </script>
+</body>
+</html>
+```
 
 ## Bugs? Questions?
 

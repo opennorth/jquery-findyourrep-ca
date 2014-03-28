@@ -16,6 +16,8 @@ This plugin extends and reuses code from the [Sunlight Foundation](https://sunli
     $('.myDiv').findYourRep({apis: 'represent'});
 ```
 
+Try the [demo](http://opennorth.github.io/jquery-findyourrep-ca/) (a good test address is `A1A1A1` for St. John's, NL).
+
 For further documentation, see the [jQuery Find-Your-Rep](https://github.com/sunlightlabs/jquery-findyourrep#readme) plugin.
 
 ## Bugs? Questions?

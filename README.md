@@ -4,20 +4,6 @@ A basic jQuery plugin that renders a form into the specified target, geocoding i
 
 This plugin extends and reuses code from the [Sunlight Foundation](https://sunlightfoundation.com/)'s [jQuery Find-Your-Rep](https://github.com/sunlightlabs/jquery-findyourrep) plugin.
 
-## Usage
-
-1. Link, in this order:
-  1. jQuery
-  1. [`dist/js/jquery.findyourrep-pack.min.js`](https://raw.githubusercontent.com/sunlightlabs/jquery-findyourrep/master/dist/js/jquery.findyourrep-pack.min.js) from jQuery Find-Your-Rep
-  1. [`dist/js/jquery.findyourrep.ca.min.js`](https://raw.githubusercontent.com/opennorth/jquery-findyourrep-ca/master/dist/js/jquery.findyourrep.ca.min.js) from this package
-1. Call `findYourRep({apis: 'represent'})` on an element:
-
-```javascript
-    $('.myDiv').findYourRep({apis: 'represent'});
-```
-
-For further documentation, see the [jQuery Find-Your-Rep](https://github.com/sunlightlabs/jquery-findyourrep#readme) plugin.
-
 ## Example
 
 Try the [demo](http://opennorth.github.io/jquery-findyourrep-ca/) (a good test address is `A1A1A1` for St. John's, NL). The full example code is:
@@ -42,6 +28,20 @@ Try the [demo](http://opennorth.github.io/jquery-findyourrep-ca/) (a good test a
 </body>
 </html>
 ```
+
+## Usage
+
+1. Link, in this order:
+  1. jQuery
+  1. [`dist/js/jquery.findyourrep-pack.min.js`](https://raw.githubusercontent.com/sunlightlabs/jquery-findyourrep/master/dist/js/jquery.findyourrep-pack.min.js) from jQuery Find-Your-Rep
+  1. [`dist/js/jquery.findyourrep.ca.min.js`](https://raw.githubusercontent.com/opennorth/jquery-findyourrep-ca/master/dist/js/jquery.findyourrep.ca.min.js) from this package
+1. Call `findYourRep({apis: 'represent'})` on an element:
+
+```javascript
+    $('.myDiv').findYourRep({apis: 'represent'});
+```
+
+For further documentation, see the [jQuery Find-Your-Rep](https://github.com/sunlightlabs/jquery-findyourrep#readme) plugin.
 
 ## Bugs? Questions?
 

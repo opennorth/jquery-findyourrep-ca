@@ -40,10 +40,16 @@ $.findYourRep.represent = function(address) {
 
 $.findYourRep.getTemplateContext = function(rep, api){
   return {
-    name: rep.name,
     details: rep.elected_office + ', ' + rep.district_name,
     photoUrl: rep.photo_url,
-    resultUrl: rep.source_url
+    resultUrl: rep.url || rep.source_url,
+    name: rep.name,
+    distric_name: rep.distric_name,
+    elected_office: rep.elected_office,
+    source_url: rep.source_url,
+    party_name: rep.party_name,
+    email: rep.email,
+    url: rep.url
   };
 }
 

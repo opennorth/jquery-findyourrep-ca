@@ -61,7 +61,7 @@ $.findYourRep.formTemplate = "" +
       "<textarea placeholder='Enter your address'>{{ defaultValue }}</textarea>" +
       "<button class='fyr-submit'>{{ action }}</button>" +
       "</div>" +
-      "<small>Powered by <a href='http://represent.opennorth.ca'>Represent</a></small>" +
+      "<small>Powered by <a href='https://represent.opennorth.ca/'>Represent</a></small>" +
   "</div>";
 
 $.findYourRep.resultsTemplate = "" +
@@ -71,7 +71,7 @@ $.findYourRep.resultsTemplate = "" +
     "<ul class='fyr-reps'></ul>" +
   "</div>" +
   "<a href='#' class='fyr-back'>&laquo; start over</a>" +
-  "<small>Powered by <a href='http://represent.opennorth.ca'>Represent</a></small>" +
+  "<small>Powered by <a href='https://represent.opennorth.ca/'>Represent</a></small>" +
 "</div>";
 
 })(this);

@@ -1,6 +1,6 @@
 # Find Your Rep Widget: Canada
 
-A basic jQuery plugin that renders a form into the specified target, geocoding input and displaying results from [Open North](http://opennorth.ca/)'s [Represent API](http://represent.opennorth.ca/).
+A basic jQuery plugin that renders a form into the specified target, geocoding input and displaying results from [Open North](http://opennorth.ca/)'s [Represent API](https://represent.opennorth.ca/).
 
 This plugin extends and reuses code from the [Sunlight Foundation](https://sunlightfoundation.com/)'s [jQuery Find-Your-Rep](https://github.com/sunlightlabs/jquery-findyourrep) plugin.
 

@@ -6,7 +6,7 @@ This plugin extends and reuses code from the [Sunlight Foundation](https://sunli
 
 ## Example
 
-Try the [demo](http://opennorth.github.io/jquery-findyourrep-ca/) (a good test address is `A1A1A1` for St. John's, NL). The full example code is:
+Try the [demo](https://opennorth.github.io/jquery-findyourrep-ca/) (a good test address is `A1A1A1` for St. John's, NL). The full example code is:
 
 ```html
 <!doctype html>
@@ -15,7 +15,7 @@ Try the [demo](http://opennorth.github.io/jquery-findyourrep-ca/) (a good test a
     <meta charset="UTF-8">
     <title>Find Your Rep example</title>
     <link rel="stylesheet" href="css/jquery.findyourrep.min.css" />
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/jquery.findyourrep-pack.min.js"></script>
     <script src="js/jquery.findyourrep.ca.min.js"></script>
 </head>
@@ -45,6 +45,6 @@ For further documentation, see the [jQuery Find-Your-Rep](https://github.com/sun
 
 ## Bugs? Questions?
 
-This project's main repository is on GitHub: [http://github.com/opennorth/jquery-findyourrep-ca](http://github.com/opennorth/jquery-findyourrep-ca), where your contributions, forks, bug reports, feature requests, and feedback are greatly welcomed.
+This project's main repository is on GitHub: [https://github.com/opennorth/jquery-findyourrep-ca](https://github.com/opennorth/jquery-findyourrep-ca), where your contributions, forks, bug reports, feature requests, and feedback are greatly welcomed.
 
 Copyright (c) 2014 Open North Inc., released under the BSD3 license

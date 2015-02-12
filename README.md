@@ -43,8 +43,4 @@ Try the [demo](https://opennorth.github.io/jquery-findyourrep-ca/) (a good test 
 
 For further documentation, see the [jQuery Find-Your-Rep](https://github.com/sunlightlabs/jquery-findyourrep#readme) plugin.
 
-## Bugs? Questions?
-
-This project's main repository is on GitHub: [https://github.com/opennorth/jquery-findyourrep-ca](https://github.com/opennorth/jquery-findyourrep-ca), where your contributions, forks, bug reports, feature requests, and feedback are greatly welcomed.
-
 Copyright (c) 2014 Open North Inc., released under the BSD3 license

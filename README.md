@@ -4,6 +4,8 @@ A basic jQuery plugin that renders a form into the specified target, geocoding i
 
 This plugin extends and reuses code from the [Sunlight Foundation](https://sunlightfoundation.com/)'s [jQuery Find-Your-Rep](https://github.com/sunlightlabs/jquery-findyourrep) plugin.
 
+For another take on this, check out The Tyee's [plugin](https://github.com/TheTyee/jquery-findyournextrep-ca) and [demo](http://thetyee.github.io/jquery-findyournextrep-ca/).
+
 ## Example
 
 Try the [demo](https://opennorth.github.io/jquery-findyourrep-ca/) (a good test address is `A1A1A1` for St. John's, NL). The full example code is:
